@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แผนกวิชาคอมพิวเตอร์ - วิทยาลัยเทคนิคนางรอง</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>body { font-family: 'Prompt', sans-serif; }</style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+    <!-- Navbar -->
+    <nav class="bg-blue-900 text-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="bg-amber-400 text-blue-900 font-bold p-2 rounded-lg text-xl">NRT</div>
+                <div>
+                    <h1 class="font-bold text-lg leading-tight">วิทยาลัยเทคนิคนางรอง</h1>
+                    <p class="text-xs text-blue-200">Nang Rong Technical College</p>
+                </div>
+            </div>
+            <div class="space-x-1 md:space-x-4 flex items-center text-sm md:text-base">
+                <a href="index.html" class="px-3 py-2 rounded-lg hover:bg-blue-800 transition">หน้าแรก</a>
+                <a href="history.html" class="px-3 py-2 rounded-lg hover:bg-blue-800 transition">ประวัติความเป็นมา</a>
+                <a href="computer.html" class="px-3 py-2 rounded-lg bg-blue-800 text-amber-300 font-medium">แผนกคอมพิวเตอร์</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-indigo-900 via-blue-900 to-slate-900 text-white py-16 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <span class="bg-emerald-500 text-white font-medium px-4 py-1.5 rounded-full text-xs inline-block mb-4 shadow">
+                💻 ยุคดิจิทัลและเทคโนโลยีล้ำสมัย
+            </span>
+            <h1 class="text-3xl md:text-5xl font-bold mb-4">แผนกวิชาคอมพิวเตอร์</h1>
+            <p class="text-blue-200 max-w-2xl mx-auto text-base md:text-lg">
+                มุ่งเน้นผลิตและพัฒนากำลังคนด้านเทคโนโลยีสารสนเทศ คอมพิวเตอร์ธุรกิจ และนวัตกรรมดิจิทัลที่ตอบโจทย์ตลาดแรงงานยุคใหม่
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content Computer Department -->
+    <main class="max-w-6xl mx-auto px-4 py-12 space-y-12">
+        
+        <!-- Highlight Banner: COMTECH Service -->
+        <div class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-8 md:p-10 rounded-3xl shadow-xl flex flex-col md:flex-row items-center justify-between gap-6">
+            <div>
+                <span class="bg-amber-400 text-blue-900 font-bold text-xs px-3 py-1 rounded-full uppercase tracking-wider">ศูนย์บ่มเพาะผู้ประกอบการอาชีวศึกษา</span>
+                <h2 class="text-2xl md:text-3xl font-bold mt-3">“COMTECH Service”</h2>
+                <p class="text-blue-100 text-sm md:text-base mt-2 max-w-xl">
+                    ศูนย์บริการฝึกทักษะและประกอบวิชาชีพของนักเรียน นักศึกษาแผนกคอมพิวเตอร์ เปิดให้บริการด้านไอที ซ่อมบำรุงคอมพิวเตอร์ และพัฒนางานบริการดิจิทัลสู่ชุมชน
+                </p>
+            </div>
+            <div class="bg-white/10 p-6 rounded-2xl backdrop-blur-md border border-white/20 text-center min-w-[200px]">
+                <div class="text-3xl mb-1">🛠️</div>
+                <div class="font-bold text-amber-300">เรียนจริง ปฏิบัติจริง</div>
+                <div class="text-xs text-blue-100 mt-1">สร้างรายได้ระหว่างเรียน</div>
+            </div>
+        </div>
+
+        <!-- Courses Offered -->
+        <div>
+            <div class="text-center mb-10">
+                <h2 class="text-2xl md:text-3xl font-bold text-blue-900">หลักสูตรที่เปิดสอน</h2>
+                <p class="text-slate-600 text-sm mt-1">รองรับเส้นทางศึกษาต่อและการทำงานในสายอาชีพไอที</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- ปวช. -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition border-t-4 border-t-blue-600">
+                    <div class="text-blue-600 font-bold text-sm tracking-wide uppercase">ระดับประกาศนียบัตรวิชาชีพ</div>
+                    <h3 class="text-2xl font-bold text-slate-900 mt-1 mb-4">สาขาวิชาคอมพิวเตอร์ธุรกิจ / IT</h3>
+                    <ul class="space-y-3 text-slate-600 text-sm">
+                        <li class="flex items-center gap-2">✅ พื้นฐานการเขียนโปรแกรมและฐานข้อมูล</li>
+                        <li class="flex items-center gap-2">✅ การออกแบบกราฟิกและมัลติมีเดีย (Graphic & Media)</li>
+                        <li class="flex items-center gap-2">✅ ระบบคอมพิวเตอร์และเครือข่ายเบื้องต้น</li>
+                        <li class="flex items-center gap-2">✅ การประยุกต์ใช้งานคอมพิวเตอร์ในงานธุรกิจ</li>
+                    </ul>
+                </div>
+                <!-- ปวส. -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition border-t-4 border-t-amber-500">
+                    <div class="text-amber-600 font-bold text-sm tracking-wide uppercase">ระดับประกาศนียบัตรวิชาชีพชั้นสูง</div>
+                    <h3 class="text-2xl font-bold text-slate-900 mt-1 mb-4">สาขาวิชาเทคโนโลยีสารสนเทศ</h3>
+                    <ul class="space-y-3 text-slate-600 text-sm">
+                        <li class="flex items-center gap-2">🚀 การพัฒนาเว็บไซต์และแอปพลิเคชันสมัยใหม่</li>
+                        <li class="flex items-center gap-2">🚀 การบริหารจัดการระบบเครือข่ายและความปลอดภัย</li>
+                        <li class="flex items-center gap-2">🚀 เทคโนโลยีฐานข้อมูลขั้นสูงและดาต้าเบส</li>
+                        <li class="flex items-center gap-2">🚀 โครงงานนวัตกรรมไอทีและปัญญาประดิษฐ์ (AI)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Why study here? -->
+        <div class="bg-slate-900 text-white p-8 md:p-12 rounded-3xl">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-center">ทำไมต้องเรียน "คอมพิวเตอร์ เทคนิคนางรอง"?</h2>
+            <div class="grid md:grid-cols-3 gap-6 text-center">
+                <div class="p-4">
+                    <div class="text-4xl mb-3">👨‍🏫</div>
+                    <h4 class="font-bold text-lg mb-1 text-amber-300">อาจารย์ผู้เชี่ยวชาญ</h4>
+                    <p class="text-xs text-slate-400">ทีมครูผู้สอนมีความเชี่ยวชาญเฉพาะด้านไอที พร้อมดูแลอย่างใกล้ชิด</p>
+                </div>
+                <div class="p-4">
+                    <div class="text-4xl mb-3">🖥️</div>
+                    <h4 class="font-bold text-lg mb-1 text-amber-300">ห้องปฏิบัติการทันสมัย</h4>
+                    <p class="text-xs text-slate-400">พร้อมอุปกรณ์คอมพิวเตอร์ เครือข่าย และอินเทอร์เน็ตความเร็วสูง</p>
+                </div>
+                <div class="p-4">
+                    <div class="text-4xl mb-3">💼</div>
+                    <h4 class="font-bold text-lg mb-1 text-amber-300">โอกาสร่วมงานสูง</h4>
+                    <p class="text-xs text-slate-400">ฝึกงานกับสถานประกอบการชั้นนำ และทักษะวิชาชีพที่ตลาดต้องการ</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Footer Links -->
+        <div class="flex justify-between items-center pt-4">
+            <a href="history.html" class="text-blue-600 hover:text-blue-800 font-medium text-sm flex items-center gap-1">← ดูประวัติความเป็นมา</a>
+            <a href="index.html" class="bg-slate-200 text-slate-700 px-5 py-2.5 rounded-xl font-medium text-sm hover:bg-slate-300 transition">กลับหน้าแรก</a>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 text-center text-sm border-t border-slate-800 mt-12">
+        <p>© วิทยาลัยเทคนิคนางรอง (Nang Rong Technical College) จ.บุรีรัมย์</p>
+    </footer>
+</body>
+</html>

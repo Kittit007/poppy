@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>วิทยาลัยเทคนิคนางรอง - หน้าแรก</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>body { font-family: 'Prompt', sans-serif; }</style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+    <!-- Navbar -->
+    <nav class="bg-blue-900 text-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="bg-amber-400 text-blue-900 font-bold p-2 rounded-lg text-xl">NRT</div>
+                <div>
+                    <h1 class="font-bold text-lg leading-tight">วิทยาลัยเทคนิคนางรอง</h1>
+                    <p class="text-xs text-blue-200">Nang Rong Technical College</p>
+                </div>
+            </div>
+            <div class="space-x-1 md:space-x-4 flex items-center text-sm md:text-base">
+                <a href="index.html" class="px-3 py-2 rounded-lg bg-blue-800 text-amber-300 font-medium">หน้าแรก</a>
+                <a href="history.html" class="px-3 py-2 rounded-lg hover:bg-blue-800 transition">ประวัติความเป็นมา</a>
+                <a href="computer.html" class="px-3 py-2 rounded-lg hover:bg-blue-800 transition">แผนกคอมพิวเตอร์</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 text-white py-20 px-4 text-center overflow-hidden">
+        <div class="max-w-4xl mx-auto relative z-10">
+            <span class="bg-amber-400 text-blue-900 font-semibold px-4 py-1.5 rounded-full text-sm inline-block mb-4 shadow-md">
+                สถานศึกษามาตรฐานสากล เพื่อชุมชนและสังคม
+            </span>
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">วิทยาลัยเทคนิคนางรอง</h1>
+            <p class="text-lg md:text-xl text-blue-100 mb-8 max-w-2xl mx-auto font-light">
+                "ทักษะล้ำ นำเทคโนโลยี มีวินัย ใฝ่คุณธรรม ค้ำจุนสังคม"
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="history.html" class="bg-amber-400 text-blue-900 font-semibold px-6 py-3 rounded-xl shadow-lg hover:bg-amber-300 transition transform hover:-translate-y-0.5">
+                    📖 อ่านประวัติวิทยาลัยฯ
+                </a>
+                <a href="computer.html" class="bg-white/10 hover:bg-white/25 text-white border border-white/30 font-semibold px-6 py-3 rounded-xl backdrop-blur-sm transition transform hover:-translate-y-0.5">
+                    💻 เข้าสู่แผนกคอมพิวเตอร์
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Info Highlights -->
+    <section class="max-w-7xl mx-auto px-4 py-16">
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition">
+                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-content text-2xl font-bold mb-4 items-center justify-center">🎯</div>
+                <h3 class="text-xl font-bold mb-2 text-blue-900">ปรัชญาของสถานศึกษา</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">ทักษะล้ำ นำเทคโนโลยี มีวินัย ใฝ่คุณธรรม ค้ำจุนสังคม</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition">
+                <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-content text-2xl font-bold mb-4 items-center justify-center">👁️</div>
+                <h3 class="text-xl font-bold mb-2 text-blue-900">วิสัยทัศน์</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">สถานศึกษาพอเพียง มุ่งผลิตนักเรียน นักศึกษาที่มีคุณภาพมาตรฐานสากล ปลูกฝังคุณธรรม จริยธรรม และจิตสาธารณะ</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition">
+                <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-content text-2xl font-bold mb-4 items-center justify-center">🤝</div>
+                <h3 class="text-xl font-bold mb-2 text-blue-900">อัตลักษณ์ & เอกลักษณ์</h3>
+                <p class="text-slate-600 text-sm leading-relaxed"><strong>อัตลักษณ์:</strong> จิตสาธารณะ นำทักษะพัฒนาชุมชน<br><strong>เอกลักษณ์:</strong> สถานศึกษาเพื่อชุมชน</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 text-center text-sm border-t border-slate-800">
+        <p>© วิทยาลัยเทคนิคนางรอง (Nang Rong Technical College) จ.บุรีรัมย์</p>
+    </footer>
+</body>
+</html>
